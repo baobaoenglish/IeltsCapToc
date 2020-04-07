@@ -1,0 +1,113 @@
+baseurl = "https://baobaoenglish.github.io/IeltsCapToc/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "BaoBao English Center"
+
+		[params.navigation.links]
+			about     = "Về Chúng Tôi"
+			services  = "Khóa Học"
+			portfolio = "Học Viên"
+			contact   = "Liên Hệ"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Ielts 5.0+ Cấp Tốc Sau 24 Buổi"
+		subtitle   = "Khóa học không yêu cầu trình độ đầu vào vẫn đảm bảo đầu ra tối thiểu 5.0+ Overall Ielts"
+		buttonText = "Tìm Hiểu Thêm"
+
+
+	# About section
+	[params.about]
+		headline    = "Khóa học dành cho người bận rộn"
+		description = "Bạn bị mất căn bản ngữ pháp, tốn quá nhiều thời gian và tiền bạc vào các khóa học không có kết quả, cần gấp bằng Ielts để xin ra trường, xin Visa, học bổng du học,..."
+		buttonText  = "Đăng Ký Ngay!"
+	
+		
+		
+		
+
+	
+
+
+	# Service section
+	[params.services]
+		headline = "Sau 24 Buổi"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Nắm Vững Ngữ Pháp"
+            description = "Phương pháp độc quyền lấy lại căn bản ngữ pháp sau 24 buổi."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Đánh Nhanh Rút Gọn"
+			description = "Tiểu xảo đánh nhanh rút gọn Listening part 1,2,3,4 mà không cần nghe hết bài "
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Reading Thần Tốc"
+            description = "Thủ thuật kinh điển chọn 40 đáp án thần tốc trong Reading."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Writing Bao Chất"
+            description = "Kỹ năng viết Writing Task 1 và Task 2 bao lấy điểm trên 5.0!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Liên Hệ Qua Facebook"
+
+		[params.aside.button]
+			text = "Fanpage"
+			link = "https://www.facebook.com/BAOBAOENGLISHCENTER/"
+
+	# Contact section
+	[params.contact]
+		headline = "Liên Hệ Ngay"
+		description = "Gọi ngay vào Hotline bên dưới để nhận ưu đãi và tư vấn miễn phí từ chúng mình nhé!"
+		phone = "086-8577-093"
+		email = "dotruongbao@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
