@@ -2,7 +2,7 @@ baseurl = "https://baobaoenglish.github.io/IeltsCapToc/"
 languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-143560086-4"
 
 [params]
 
